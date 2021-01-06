@@ -1,0 +1,5 @@
+{ query: "mutation { addTypePatients (nameTypePatients: \""+nameTypePatients+"\") { idTypePatients nameTypePatients } }"
+{ query: "mutation { putTypePatients (idTypePatients: "+idTypePatients+", nameTypePatients: \""+nameTypePatients+"\") { idTypePatients nameTypePatients } }"
+{ query: "query { getAllTypePatients { idTypePatients nameTypePatients } }" }
+{ query: "query { findOneTypePatients (idTypePatients: "+idTypePatients+") { idTypePatients nameTypePatients }}"}
+{ query: "mutation { putTypePatients (idTypePatients: "+idTypePatients+", nameTypePatients: \""+nameTypePatients+"\") { idTypePatients nameTypePatients } }"}

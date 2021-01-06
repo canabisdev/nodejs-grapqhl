@@ -1,0 +1,2 @@
+{ query: "mutation { addPatients(nomPat: \""+nomPat+"\", prenomPat: \""+prenomPat+"\", dateNaissPat: \""+dateNaisspat+"\", sexePat: \""+sexePat+"\", adressePat:\""+adressePat+"\", phonePat: \""+phonePat+"\") { idPat nomPat prenomPat } }"}
+

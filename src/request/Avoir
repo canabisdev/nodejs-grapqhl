@@ -1,0 +1,7 @@
+{ 
+    query :"mutation { addAvoir(idPat: "+idPat+", idTypePatients: "+idTypePatients+") { idAvoir patients { idPat prenomPat dateNaissPat sexePat adressePat phonePat } typePatients { idTypePatients } } }" 
+}
+
+{
+    query: "query { getAllAvoir { idAvoir patients { idPat prenomPat dateNaissPat sexePat adressePat phonePat } typePatients { idTypePatients nameTypePatients } } }"
+}

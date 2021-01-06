@@ -1,0 +1,2 @@
+{ query: "mutation { addSpecialites(nameSpe: \""+nameSpe+"\") { idPse nameSpe medecins { idMed prenomMed telMed } } }"}
+
